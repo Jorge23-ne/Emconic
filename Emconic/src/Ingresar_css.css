@@ -1,0 +1,82 @@
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Login {
+    background-color: #3395a7;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1bdbc2;
+}
+
+
+.Nombre,
+.Contraseña {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Correo{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Telefono{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    box-shadow: 0 0 5px #1bdbc2;
+    outline: none;
+}
+
+
+.Boton {
+    background-color: #2eb9d1;
+    color: #EDE5D6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Boton:hover {
+    background-color: #b31717;
+}
+
+
+.Titulo,
+.Texto {
+    background-color: #EDE5D6;
+}
