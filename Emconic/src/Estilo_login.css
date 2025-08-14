@@ -1,20 +1,22 @@
 body {
-    background-color: #ffffff;
+    background-color: #EDE5D6;
     color: #000000;
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 
 }
-.Login {
-    background-color: #3395a7;
-    padding: 25px;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    margin-left: 0;      /* Elimina el margen negativo */
-    margin-right: auto;  /* Empuja el bloque hacia la izquierda */
-    margin-left: 0;      /* Asegura que esté alineado a la izquierda */
+
+.Login2 {
+     background-color: #F8F8F2;
+    padding:25px;
+     font-family:'Times New Roman', Times, serif;
+    border-radius: 30px;
+    box-shadow: 0 5px  10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 250px;
+    margin: 100px auto;
+    text-align: center;
 }
 
 .logo {
@@ -22,43 +24,36 @@ body {
     background-position: 200px center;
 }
 
-/* .contenido {
-    width: 177px;
-    height: 177px;
-    background: #ffffff;
-    border-radius: 100%;
-    position: absolute;
- 
-    left: 50px;
-    z-index: 0;
-    background-color: #f10014;
 
-} */
 
-h2 {
+.Inicio{
     text-align: center;
-    margin-bottom: 20px;
-    color: #1bdbc2;
+    margin-bottom: 45px;
+    color: #1E6C83;
+     font-family:'Times New Roman', Times, serif;
 }
 
 
 .Nombre,
 .Contraseña {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     align-items: center;
+     font-family:'Times New Roman', Times, serif;
 }
 
 .Registrarse {
-    background-color: #2eb9d1;
-    color: #EDE5D6;
+    background-color: #EDE5D6;
+    color: #080601;
+    margin: auto;
     border: none;
     border-radius: 10px;
-
     margin-left: 10px;
     font-size: 10px;
     cursor: pointer;
+     font-family:'Times New Roman', Times, serif;
     transition: background-color 0.3s ease;
 }
 
@@ -70,12 +65,14 @@ h2 {
 
 input[type="text"],
 input[type="password"] {
+    margin-bottom: 10px;
     padding: 10px;
     border: none;
+     font-family:'Times New Roman', Times, serif;
     border-radius: 10px;
     width: 100%;
     max-width: 200px;
-    box-shadow: 0 0 5px #1bdbc2;
+    box-shadow: 0 0 5px #0000003b;
     outline: none;
 }
 
@@ -84,7 +81,11 @@ input[type="password"] {
     background-color: #2eb9d1;
     color: #EDE5D6;
     border: none;
+    box-shadow:0 5 8px #0000005e;
+    margin-bottom: 60px;
+    text-align: center;
     border-radius: 10px;
+     font-family:'Times New Roman', Times, serif;
     padding-left: 10px;
     margin-right: 10px;
     font-size: 16px;
