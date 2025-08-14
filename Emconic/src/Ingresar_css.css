@@ -1,69 +1,94 @@
-
 body {
-    background-color: #ffffff;
+    background-color: #EDE5D6;
     color: #000000;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+
 }
+
 
 .Login {
-    background-color: #3395a7;
+    background-color: #F8F8F2;
     padding: 25px;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    height: 400px;
     margin: 100px auto;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+
+
 }
+
+/* .Tilo {
+        width: 100px;
+        height: 100px;
+        background: #F8F8F2;
+        position: absolute;
+        left: 675px;
+        top: 110px;
+        z-index: 0;
+        background-image: url('../src/assets/logo2.png');
+        background-size: cover;
+        background-position: center;
+       
+    } */
 
 h2 {
+    top: 20px;
     text-align: center;
-    margin-bottom: 20px;
-    color: #1bdbc2;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 45px;
+    color: #1E6C83;
 }
 
 
-.Nombre,
-.Contraseña {
-    margin-bottom: 15px;
+.Nombre1,
+.Contraseña1 {
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.Correo{
-    margin-bottom: 15px;
+.Correo1 {
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
     align-items: center;
 
 }
 
-.Telefono{
-    margin-bottom: 15px;
+.Telefono1 {
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
     align-items: center;
 }
 
 
-input[type="text"],
-input[type="password"] {
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 200px;
-    box-shadow: 0 0 5px #1bdbc2;
-    outline: none;
+
+.Contraseña1 {
+    margin-bottom: 50px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .Boton {
-    background-color: #2eb9d1;
-    color: #EDE5D6;
+    background-color: #fff;
+    color: #0000006b;
+    box-shadow: 5px #000000;
+    margin-bottom: 50px;
     border: none;
+    font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 16px;
@@ -72,11 +97,11 @@ input[type="password"] {
 }
 
 .Boton:hover {
-    background-color: #b31717;
+    background-color: #f5d497;
 }
 
 
 .Titulo,
 .Texto {
-    background-color: #EDE5D6;
+    background-color: #ede5d642;
 }
