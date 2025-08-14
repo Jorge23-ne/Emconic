@@ -5,7 +5,7 @@
   justify-content: center;
    width: 100%;
   height: 760px;
-  background-color: #56C3C0;
+  background-color: #EDE5D6;
   color: #000;
   padding: 10px;
   box-sizing: border-box;
@@ -18,19 +18,20 @@ font-family: 'Times New Roman', Times, serif;
   padding: 40px 40px;
   background-position: 200px center;
   background-image: url('../src/assets/logo2.png');
-  background-size: 200px 200px;
+  background-size: 150px 150px;
   background-repeat: no-repeat;
   background-position: top center;
   position: center;
   width: 100%;
   height: 100px;
-  background-color: #56C3C0;
+  background-color: #EDE5D6;
+  
   
 }
 
 .elipse {
-  width: 177px;
-  height: 177px;
+  width: 200px;
+  height: 200px;
   background: #ffffff;
   border-radius: 100%;
   position: absolute;
@@ -38,6 +39,29 @@ font-family: 'Times New Roman', Times, serif;
   left: 50px;
   z-index: 0;
 }
+.elipse2 {
+  width: 250px;
+  height: 250px;
+  background: #ffffff;
+  border-radius: 100%;
+  position: absolute;
+  top: 380px;
+  left: 1100px;
+  z-index: 0;
+}
+
+.elipse3 {
+  width: 350px;
+  height: 350px;
+  background: #ffffff;
+  border-radius:  0 0 0 100% ;
+  position: absolute;
+  top: -70px;
+  left: 1260px;
+  z-index: 0;
+  
+}
+
 
 .contenido {
   position: relative;
@@ -45,6 +69,18 @@ font-family: 'Times New Roman', Times, serif;
   
   
 }
+.elipse1 {
+  width: 250px;
+  height: 250px;
+  background: #ffffff;
+  border-radius: -0  100% 0 0 ;
+  position: absolute;
+  top: 520px;
+  left: 0;
+  z-index: 0;
+  
+}
+
 
 
 
@@ -61,28 +97,31 @@ font-family: 'Times New Roman', Times, serif;
 .texto {
   font-size: 24px;
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
   margin-bottom: 20px;
   padding: 0 10px;
   font-family: 'Times New Roman', Times, serif;
-   width: 538px;
-  height: 271px;
+   width: 738px;
+  height: 150px;
   
 
 }
 
 .boton {
-  background-color: #1bdbc2;
-  color: #ede5d6;
+  background-color: #ffffff48;
+  padding-top: 500px;
+  color: #000000;
+  box-shadow:0 5px 8px #00000028;
   padding: 10px 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 45px;
   cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
   font-size: 18px;
   transition: background-color 0.56s ease;
 }
 
 .boton:hover {
-  background-color: #5119d3;
+  background-color: #1D6C83;
   color: rgb(255, 255, 255);
 }
