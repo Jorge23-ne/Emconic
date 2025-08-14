@@ -10,15 +10,15 @@ function Login() {
 
             <div class="logo"></div>
             <div class="contenido"></div>
-            <div className="Login">
-                <h2>
+            <div className="Login2">
+                <h2 className="Inicio">
                     Iniciar sesión
                 </h2>
                 <form className="Nombre" action="">
 
                     <input type="text" placeholder="Nombre de usuario"></input>
 
-               
+                </form>
 
                 <div className="Contraseña">
 
@@ -26,10 +26,13 @@ function Login() {
                     <input type="password" name="" id="" placeholder="Contraseña"></input>
 
                 </div>
-                 </form>
-                <button className="Boton" type="submit">Enviar</button>
+                <div>
 
-                <Link to='/Registrarse ' className="Boton">Crear perfil </Link>
+                    <button className="Boton" type="submit">Enviar</button>
+                    <Link to='/Registrarse ' className="Boton">Crear perfil </Link>
+
+                </div>
+
 
 
             </div>
