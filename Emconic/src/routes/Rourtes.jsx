@@ -3,6 +3,7 @@ import Bienvenida from "../Bienvenida";
 import Login from "../Login";
 import Registrarse from "../Registro_login";
 import Menu from "../Menu";
+import Cambio_de_contraseña from "../Cambio_de_contraseña";
 
 
 
@@ -16,6 +17,7 @@ function Routers () {
             <Route path="/login" element={<Login/>}/>
              <Route path="/registrarse" element={<Registrarse/>}/>
                 <Route path="/menu" element={<Menu/>}/>
+                <Route path="/cambio_de_contraseña" element={<Cambio_de_contraseña/>}/>
         </Routes>
 
 
