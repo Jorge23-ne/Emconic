@@ -1,0 +1,76 @@
+.cuerpo {
+
+    background-color: #EDE5D6;
+    margin: 0;
+
+}
+
+.Cambio {
+    width: 380px;
+    height: 390px;
+    border-radius: 35px;
+    box-shadow: 0 5px 8px #00000028;
+    background-color: #F8F8F2;
+    position: absolute;
+    z-index: 1;
+    left: 550px;
+    top: 100px;
+}
+
+.Cambio1 {
+    color: #1D6C83;
+    padding: 40px;
+}
+
+.G1 {
+
+    color: #EDE5D6;
+    border: none;
+    box-shadow: 0 5 8px #0000005e;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+
+.G2 {
+
+
+    color: #EDE5D6;
+    border: none;
+    box-shadow: 0 5 8px #0000005e;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+
+.G3 {
+    background-color: #fff;
+    color: #1D6C83;
+    border: none;
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    left: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+
+}
