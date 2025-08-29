@@ -1,39 +1,27 @@
-import React from "react";
 import "./Cambio_de_contraseña.css";
 
 function Cambio_de_contraseña() {
 
     return (
-        <body className="cuerpo">
+        <div className="cuerpo">
             <div className="Cambio">
-                <h1 className="Cambio1">Cambio de contraeña</h1>
+                <h1 className="Cambio1">Cambio de contraseña</h1>
 
-                  <div className="G2">
+                <div className="G2">
 
 
-                    <input  type="password" name="" id="" placeholder="Ingrese la nueva contraseña"></input>
+                    <input type="password" name="" id="" placeholder="Ingrese la nueva contraseña"></input>
 
                 </div>
-                  <div className="G1">
+                <div className="G1">
 
 
-                    <input  type="password" name="" id="" placeholder="Confirme la nueva contraseña"></input>
+                    <input type="password" name="" id="" placeholder="Confirme la nueva contraseña"></input>
 
                 </div>
                 <button className="G3" type="reset">Enviar</button>
             </div>
-           
-            
-            
-   
-
-            
-
-
-
-
-        </body>
-
+        </div>
     )
 }
 
