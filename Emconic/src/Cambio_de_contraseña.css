@@ -5,27 +5,63 @@
 
 }
 
+.error {
+  color: red;
+  font-size: 14px;
+    text-align: center;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+
+
+button {
+  padding: 10px;
+  background-color: #EDE5D6;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#1E6C83;
+  color: white;
+}
+
+
 .Cambio {
-    width: 380px;
+    width: 350px;
     height: 390px;
+    text-align: center;
     border-radius: 35px;
     box-shadow: 0 5px 8px #00000028;
     background-color: #F8F8F2;
     position: absolute;
     z-index: 1;
-    left: 550px;
+    left: 750px;
     top: 100px;
 }
 
 .Cambio1 {
+    line-height: 1.5;
+    margin-bottom: 40px;
     color: #1D6C83;
-    padding: 40px;
+    padding: 10px;
 }
 
 .G1 {
 
     color: #EDE5D6;
     border: none;
+    margin-bottom: 20px;
     box-shadow: 0 5 8px #0000005e;
     margin-bottom: 20px;
     text-align: center;
@@ -43,6 +79,7 @@
 
     color: #EDE5D6;
     border: none;
+    margin-bottom: 20px;
     box-shadow: 0 5 8px #0000005e;
     margin-bottom: 20px;
     text-align: center;
@@ -59,11 +96,13 @@
 .G3 {
     background-color: #fff;
     color: #1D6C83;
+    text-align: center;
+    margin: 10px;
     border: none;
     width: 70px;
-    height: 25px;
+    height: 30px;
     position: absolute;
-    left: 150px;
+    left: 120px;
     margin-bottom: 20px;
     text-align: center;
     border-radius: 10px;
