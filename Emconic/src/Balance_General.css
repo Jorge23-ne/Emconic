@@ -1,0 +1,207 @@
+
+
+.Balance_General {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    min-height: 100vh;
+    background-color: #ffff;
+    width:100% ;
+    height: 90px;
+}
+
+.Franja_Superior {
+    background-color:#EDE5D6;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    top: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+     background: linear-gradient(to bottom, #b4aa98, #EDE5D6);
+    transition: all 0.4s ease;
+    z-index: 1000;
+    overflow: hidden;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+}
+    
+
+.Titulo {
+    margin: 0;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.Ubicacion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Ubicacion button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Activos {
+    background-color: #1e6c83;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Total_Activos {
+    background-color: #1e6c83;
+    color:  rgb(0, 0, 0);
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.Pasivos {
+    background-color: #1e6c83;
+    color:  rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.Total_Pasivos {
+    background-color: #1e6c83;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Patrimonio {
+    background-color: #1e6c83;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Ubicacion button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Franja_Left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 50px;
+    background: linear-gradient(to bottom, #b4aa98, #EDE5D6);
+    transition: all 0.4s ease;
+    z-index: 1000;
+    overflow: hidden;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Franja_Left:hover {
+    width: 200px;
+}
+
+.contenedor-botones {
+    padding: 80px 0;
+    opacity: 0;
+    transition: opacity 0.3s ease 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Franja_Left:hover .contenedor-botones {
+    opacity: 1;
+}
+
+.Franja_Left button {
+    width: 160px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #2c3e50;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+}
+
+.Franja_Left button:hover {
+    background-color: #EDE5D6;
+    color: white;
+    transform: translateX(5px);
+}
+
+.Total_Pasivos {
+
+    background-color: #EDE5D6 !important;
+     font-family: 'Times New Roman', Times, serif;
+    color:  rgb(0, 0, 0);
+    
+}
+
+
+
+.Total_Pasivos:hover {
+    background-color: #1e6c83 !important;
+}
+.Total_Activos:hover {
+    background-color: #1e6c83 !important;
+}
+.Activos:hover {
+    background-color: #1e6c83 !important;
+}
+.Pasivos:hover {
+    background-color: #1e6c83 !important;
+}
+.Patrimonio:hover {
+    background-color: #1e6c83 !important;
+}
+
+/* Indicador visual para hover */
+.Franja_Left::after {
+    content: "☰";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.Franja_Left:hover::after {
+    opacity: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .Franja_Left {
+        width: 40px;
+    }
+    
+    .Franja_Left:hover {
+        width: 180px;
+    }
+    
+    .Franja_Left button {
+        width: 140px;
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+    
+    .Titulo {
+        font-size: 1.8rem;
+    }
+    
+    .Ubicacion {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Ubicacion button {
+        width: 200px;
+    }
+}
