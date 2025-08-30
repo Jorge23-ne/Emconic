@@ -48,38 +48,58 @@
     position: absolute;
     width: 30px;
     height: 50px;
-    left: 100px;
+    left: 300px;
     top: 200px;
 
 }
+
+.InfoBox {
+    margin-top: 20px;
+    line-height: 4.5;
+    position: absolute;
+    background-color: transparent;
+    min-height: 40px;
+    border-radius: 8px;
+    color: #1E6C83;
+    width: 300px;
+    height: 100px;
+    left: 700px;
+    font-size: 14px;
+    text-align: center;
+}
+
 
 
 
 .D1 {
     background-color: #EDE5D6;
     position: absolute;
-    margin-left: -120px;
+    margin-left: -420px;
     width: 100px;
     height: 50px;
+    color: #1E6C83;
     left: 490px;
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
     border: none;
     box-shadow: 0 5px 8px #00000028;
     cursor: pointer;
+    transition: 300ms;
 }
 
-
-
-
+.D1:hover {
+    background-color: #1E6C83;
+    color: white;
+}
 
 
 
 .D2 {
     background-color: #EDE5D6;
     position: absolute;
-    margin-left: -100px;
+    margin-left: -350px;
     width: 100px;
+    color: #1E6C83;
     height: 50px;
     left: 590px;
     border-radius: 20px;
@@ -87,14 +107,22 @@
     border: none;
     box-shadow: 0 5px 8px #00000028;
     cursor: pointer;
+    transition: 300ms;
 }
+
+.D2:hover {
+    background-color: #1E6C83;
+    color: white;
+}
+
 
 
 .D3 {
     background-color: #EDE5D6;
     position: absolute;
-    margin-left: -80px;
+    margin-left: -280px;
     width: 100px;
+    color: #1E6C83;
     height: 50px;
     left: 690px;
     border-radius: 20px;
@@ -102,14 +130,22 @@
     border: none;
     box-shadow: 0 5px 8px #00000028;
     cursor: pointer;
+    transition: 300ms;
 }
+
+.D3:hover {
+    background-color: #1E6C83;
+    color: white;
+}
+
 
 
 .D4 {
     background-color: #EDE5D6;
     position: absolute;
-    margin-left: -60px;
+    margin-left: -210px;
     width: 100px;
+    color: #1E6C83;
     height: 50px;
     left: 790px;
     border-radius: 20px;
@@ -117,14 +153,22 @@
     border: none;
     box-shadow: 0 5px 8px #00000028;
     cursor: pointer;
+    transition: 300ms;
 }
+
+.D4:hover {
+    background-color: #1E6C83;
+    color: white;
+}
+
 
 .D5 {
     background-color: #EDE5D6;
     position: absolute;
-    margin-left: -40px;
+    margin-left: -140px;
     width: 100px;
     height: 50px;
+    color: #1E6C83;
     left: 890px;
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -132,8 +176,15 @@
     box-shadow: 0 5px 8px #00000028;
     cursor: pointer;
     transition: Big 0.3s ease;
+    transition: 300ms;
 
 }
+
+.D5:hover {
+    background-color: #1E6C83;
+    color: white;
+}
+
 
 /* @keyframes Big {
     0% {
@@ -182,13 +233,20 @@
 .D6 {
     background-color: #EDE5D6;
     position: absolute;
-    margin-left: -20px;
+    margin-left: -70px;
     width: 100px;
     height: 50px;
     left: 990px;
+    color: #1E6C83;
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
     border: none;
     box-shadow: 0 5px 8px #00000028;
     cursor: pointer;
+    transition: 300ms;
+}
+
+.D6:hover {
+    background-color: #1E6C83;
+    color: white;
 }
