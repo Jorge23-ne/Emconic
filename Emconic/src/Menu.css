@@ -12,7 +12,8 @@
     background-size: cover;
     background-position: absolute;
     position: absolute;
-    background-color: #EDE5D6;
+    background-color: transparent;
+
 
 }
 
@@ -84,12 +85,14 @@
     border: none;
     box-shadow: 0 5px 8px #00000028;
     cursor: pointer;
+
     transition: 300ms;
 }
 
 .D1:hover {
     background-color: #1E6C83;
     color: white;
+    transform: translateY(-6px);
 }
 
 
@@ -113,6 +116,7 @@
 .D2:hover {
     background-color: #1E6C83;
     color: white;
+    transform: translateY(-5px);
 }
 
 
@@ -136,6 +140,7 @@
 .D3:hover {
     background-color: #1E6C83;
     color: white;
+    transform: translateY(-6px);
 }
 
 
@@ -159,6 +164,7 @@
 .D4:hover {
     background-color: #1E6C83;
     color: white;
+    transform: translateY(-6px);
 }
 
 
@@ -183,6 +189,7 @@
 .D5:hover {
     background-color: #1E6C83;
     color: white;
+    transform: translateY(-6px);
 }
 
 
@@ -249,4 +256,5 @@
 .D6:hover {
     background-color: #1E6C83;
     color: white;
+    transform: translateY(-6px);
 }
