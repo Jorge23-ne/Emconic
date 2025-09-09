@@ -1,210 +1,115 @@
-.Balance_General {
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    min-height: 100vh;
-    background-color: #ffff;
-    width: 100%;
-    height: 90px;
-}
+.cuerpo {
 
-.Franja_Superior {
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    top: 30px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    background: linear-gradient(#b4aa98, #EDE5D6);
-    transition: all 0.4s ease;
-    z-index: 1000;
-    overflow: hidden;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
-}
-
-
-.Titulo {
-    margin: 0;
-    text-align: center;
-    font-size: 2.2rem;
-}
-
-.Ubicacion {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.Ubicacion button {
-    padding: 12px 20px;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.Activos {
-    background-color: #1e6c83;
-    color: rgb(0, 0, 0);
-    /* border: none; */
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Total_Activos {
-    background-color: #1e6c83;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Pasivos {
-    background-color: #1e6c83;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Total_Pasivos {
-    background-color: #1e6c83;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Patrimonio {
-    background-color: #1e6c83;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Ubicacion button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-
-.Franja_Left {
-    background: linear-gradient(-50%#b4aa98,50% #EDE5D6);
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 50px;
-    transition: all 0.4s ease;
-    z-index: 1000;
-    overflow: hidden;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.Franja_Left:hover {
-    width: 200px;
-}
-
-.contenedor-botones {
-    padding: 80px 0;
-    opacity: 0;
-    transition: opacity 0.3s ease 0.2s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.Franja_Left:hover .contenedor-botones {
-    opacity: 1;
-}
-
-.Franja_Left button {
-    width: 160px;
-    padding: 12px 15px;
-    border: none;
-    border-radius: 6px;
-    background-color: white;
-    color: #2c3e50;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    white-space: nowrap;
-}
-
-.Franja_Left button:hover {
     background-color: #EDE5D6;
-    color: white;
-    transform: translateX(5px);
-}
-
-.Total_Pasivos {
-
-    background-color: #ffff !important;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
+    margin: 0;
 
 }
 
-
-
-.Total_Pasivos:hover {
-    background-color: #1e6c83 !important;
+.error {
+  color: red;
+  font-size: 14px;
+    text-align: center;
+  margin-top: 10px;
 }
 
-.Total_Activos:hover {
-    background-color: #1e6c83 !important;
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
-.Activos:hover {
-    background-color: #1e6c83 !important;
+
+
+
+
+button {
+  padding: 10px;
+  background-color: #EDE5D6;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.Pasivos:hover {
-    background-color: #1e6c83 !important;
+button:hover {
+  background-color:#1E6C83;
+  color: white;
 }
 
-.Patrimonio:hover {
-    background-color: #1e6c83 !important;
-}
 
-/* Indicador visual para hover */
-.Franja_Left::after {
-    content: "☰";
+.Cambio {
+    width: 350px;
+    height: 390px;
+    text-align: center;
+    border-radius: 35px;
+    box-shadow: 0 5px 8px #00000028;
+    background-color: #F8F8F2;
     position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    font-size: 24px;
-    transition: opacity 0.3s ease;
+    z-index: 1;
+    left: 750px;
+    top: 100px;
 }
 
-.Franja_Left:hover::after {
-    opacity: 0;
+.Cambio1 {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #1D6C83;
+    padding: 10px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .Franja_Left {
-        width: 40px;
-    }
+.G1 {
 
-    .Franja_Left:hover {
-        width: 180px;
-    }
+    color: #EDE5D6;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 5 8px #0000005e;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
 
-    .Franja_Left button {
-        width: 140px;
-        padding: 10px 12px;
-        font-size: 0.9rem;
-    }
+.G2 {
 
-    .Titulo {
-        font-size: 1.8rem;
-    }
 
-    .Ubicacion {
-        flex-direction: column;
-        align-items: center;
-    }
+    color: #EDE5D6;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 5 8px #0000005e;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
 
-    .Ubicacion button {
-        width: 200px;
-    }
+
+}
+
+.G3 {
+    background-color: #fff;
+    color: #1D6C83;
+    text-align: center;
+    margin: 10px;
+    border: none;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+
 }
