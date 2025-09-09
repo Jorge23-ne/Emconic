@@ -22,20 +22,21 @@ function Cambio_de_contraseña() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if (password == confirmPassword && validatePassword(password)) {
-            setError("");
-            setIsValid(true);
-            console.log("Contraseña cambiada con éxito");
-
-        } else {
+        if (password !== confirmPassword) {
             setIsValid(false);
-            if (password !== confirmPassword) {
-                setError("Las contraseñas no coinciden.");
-            } else {
-                setError("Tiene que tener mayor de 8 caracteres");
-            }
-            console.log("Error en la validación");
+            setError("Las contraseñas no coinciden.");
+            return;
         }
+
+        if (!validatePassword(password)) {
+            setIsValid(false);
+            setError("La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula, un número y un carácter especial.");
+            return;
+        }
+
+        setError("");
+        setIsValid(true);
+        console.log("Contraseña cambiada con éxito");
     };
     return (
         <div className="cuerpo">
@@ -46,6 +47,8 @@ function Cambio_de_contraseña() {
                 {isValid && <p className="success">¡Contraseña cambiada con éxito!</p>}
 
                 <form onSubmit={handleSubmit}>
+
+
                     <div className="G2">
                         <input
                             type="password"
