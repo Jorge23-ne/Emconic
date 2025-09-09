@@ -1,28 +1,25 @@
-
-
 .Balance_General {
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     min-height: 100vh;
     background-color: #ffff;
-    width:100% ;
+    width: 100%;
     height: 90px;
 }
 
 .Franja_Superior {
-    background-color:#EDE5D6;
     color: rgb(0, 0, 0);
     padding: 20px;
     top: 30px;
     border-radius: 8px;
     margin-bottom: 30px;
-     background: linear-gradient(to bottom, #b4aa98, #EDE5D6);
+    background: linear-gradient(#b4aa98, #EDE5D6);
     transition: all 0.4s ease;
     z-index: 1000;
     overflow: hidden;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
 }
-    
+
 
 .Titulo {
     margin: 0;
@@ -51,20 +48,22 @@
 .Activos {
     background-color: #1e6c83;
     color: rgb(0, 0, 0);
+    /* border: none; */
     font-family: 'Times New Roman', Times, serif;
 }
 
 .Total_Activos {
     background-color: #1e6c83;
-    color:  rgb(0, 0, 0);
-     font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .Pasivos {
     background-color: #1e6c83;
-    color:  rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
 }
+
 .Total_Pasivos {
     background-color: #1e6c83;
     color: rgb(0, 0, 0);
@@ -84,12 +83,12 @@
 
 
 .Franja_Left {
+    background: linear-gradient(-50%#b4aa98,50% #EDE5D6);
     position: fixed;
     left: 0;
     top: 0;
     height: 100vh;
     width: 50px;
-    background: linear-gradient(to bottom, #b4aa98, #EDE5D6);
     transition: all 0.4s ease;
     z-index: 1000;
     overflow: hidden;
@@ -137,9 +136,9 @@
 .Total_Pasivos {
 
     background-color: #ffff !important;
-     font-family: 'Times New Roman', Times, serif;
-    color:  rgb(0, 0, 0);
-    
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+
 }
 
 
@@ -147,15 +146,19 @@
 .Total_Pasivos:hover {
     background-color: #1e6c83 !important;
 }
+
 .Total_Activos:hover {
     background-color: #1e6c83 !important;
 }
+
 .Activos:hover {
     background-color: #1e6c83 !important;
 }
+
 .Pasivos:hover {
     background-color: #1e6c83 !important;
 }
+
 .Patrimonio:hover {
     background-color: #1e6c83 !important;
 }
@@ -164,10 +167,10 @@
 .Franja_Left::after {
     content: "☰";
     position: absolute;
-    top: 50%;
+    top: 20px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 24px;
     transition: opacity 0.3s ease;
 }
@@ -181,26 +184,26 @@
     .Franja_Left {
         width: 40px;
     }
-    
+
     .Franja_Left:hover {
         width: 180px;
     }
-    
+
     .Franja_Left button {
         width: 140px;
         padding: 10px 12px;
         font-size: 0.9rem;
     }
-    
+
     .Titulo {
         font-size: 1.8rem;
     }
-    
+
     .Ubicacion {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .Ubicacion button {
         width: 200px;
     }
