@@ -5,6 +5,7 @@ import Registrarse from "../Registro_login";
 import Menu from "../Menu";
 import Cambio_de_contraseña from "../Cambio_de_contraseña";
 import Confirmacion from "../Confirmacion_de_contraseña";
+import Videos from "../Videos";
 
 
 
@@ -20,6 +21,7 @@ function Routers () {
                 <Route path="/menu" element={<Menu/>}/>
                 <Route path="/cambio_de_contraseña" element={<Cambio_de_contraseña/>}/>
                 <Route path="/confirmacion" element={<Confirmacion/>}/>
+                <Route path="/videos" element={<Videos/>}/>
         </Routes>
 
 
