@@ -1,151 +1,155 @@
-.bienvenida {
+.bienvenida1 {
   display: flex;
-  top : 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-   width: 100%;
-  height: 760px;
+  width: 100%;
+  height: 100vh;
   background-color: #EDE5D6;
   color: #000;
-  padding: 50px;
+  padding: 50px 20px;
   box-sizing: border-box;
-font-family: 'Times New Roman', Times, serif;
-
-
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .contenedor {
-  width: 9vw;
-  height: 14vw;
-  min-width: 60px;
-  min-height: 60px;
-  max-width: 120px;
-  max-height: 120px;
-  background: #EDE5D6;
+  width: 88px;
+  height: 98px;
   position: absolute;
-  left: 50vw;
+  left: 50%;
   top: 5vh;
   transform: translate(-50%, 0);
-  z-index: 0;
   background-image: url('../src/assets/logo2.png');
   background-size: cover;
   background-position: center;
+  z-index: 1;
+}
+
+.titulo {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #1d6c83;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.texto {
+  text-align: left;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+
+.Estilo-contenedor {
+  background-color: transparent;
+  color: #1D6C83;
+  width: 800px;
+  max-width: 100%;
+  min-height: 250px;
+  padding: 30px;
+  box-sizing: border-box;
+  position: static;
+  z-index: 2;
+  border-radius: 0px 30px 0px 30px;
+}
+
+.boton {
+  background-color: #ffffff48;
+  color: #000000;
+  text-decoration: none;
+  box-shadow: 0 5px 8px #00000028;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 30px;
+  border-radius: 45px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  transition: background-color 0.56s ease;
+  z-index: 2;
+}
+
+.boton:hover {
+  background-color: #1D6C83;
+  color: white;
+}
+
+.elipse,
+.elipse1,
+.elipse2,
+.elipse3 {
+  background: #ffffff;
+  position: absolute;
+  z-index: 0;
+  border-radius: 100%;
 }
 
 .elipse {
   width: 18vw;
   height: 18vw;
-  min-width: 120px;
-  min-height: 120px;
-  max-width: 300px;
-  max-height: 300px;
-  background: #ffffff;
-  border-radius: 100%;
-  position: absolute;
   top: 7vh;
   left: 5vw;
-  z-index: 0;
 }
+
+.elipse1 {
+  width: 18vw;
+  height: 18vw;
+  top: 70vh;
+  left: 0;
+  border-radius: 0 100% 0 0;
+}
+
 .elipse2 {
   width: 18vw;
   height: 18vw;
-  min-width: 120px;
-  min-height: 120px;
-  max-width: 300px;
-  max-height: 300px;
-  background: #ffffff;
-  border-radius: 100%;
-  position: absolute;
   top: 55vh;
   left: 75vw;
-  z-index: 0;
 }
 
 .elipse3 {
   width: 25vw;
   height: 25vw;
-  min-width: 180px;
-  min-height: 180px;
-  max-width: 400px;
-  max-height: 400px;
-  background: #ffffff;
-  border-radius: 0 0 0 100%;
-  position: absolute;
   top: -5vh;
   left: 85vw;
-  z-index: 0;
+  border-radius: 0 0 0 100%;
 }
 
+@media screen and (max-width: 550px) {
 
-.contenido {
-  position: relative;
-  z-index: 00, 1;
-  
-  
-}
-.elipse1 {
-  width: 18vw;
-  height: 18vw;
-  min-width: 120px;
-  min-height: 120px;
-  max-width: 300px;
-  max-height: 300px;
-  background: #ffffff;
-  border-radius: 0 100% 0 0;
-  position: absolute;
-  top: 70vh;
-  left: 0;
-  z-index: 0;
-}
+  .contenedor {
+    width: 80px;
+    height: 90px;
+    top: 3vh;
+  }
 
+  .bienvenida1 {
+    padding: 40px 10px;
+    height: auto;
+    min-height: 100vh;
+  }
 
+  .titulo {
+    font-size: 30px;
+    width: 100%;
+  }
 
+  .Estilo-contenedor {
+    background-color: #1D6C83;
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px 30px 0px 30px;
+    color: #ffffff;
+  }
 
-.titulo {
-  text-align: top 40px;
-  font-size: 50px;
-  margin-bottom: 10px;
-  text-align: top center;
-  margin-bottom: 50px;
-  font-family: 'Times New Roman', Times, serif;
-   width: 562px;
-  height: 50px;
-  color: #1d6c83;
-}
+  .texto {
+    text-align: justify;
+  }
 
-.texto {
-  font-size: 24px;
-  text-align: center;
-  top: 500px;
-  max-width: 900px;
-  margin-bottom: 20px;
-  padding: 0 10px;
-  font-family: 'Times New Roman', Times, serif;
-   width: 738px;
-   color: #1D6C83;
-  height: 150px;
-  
-
-}
-
-.boton {
-  background-color: #ffffff48;
-  padding-top: 650px;
-  color: #000000;
-  box-shadow:0 5px 8px #00000028;
-  padding: 10px 20px;
-  border: none;
-  margin-bottom: 50px;
-  border-radius: 45px;
-  cursor: pointer;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 18px;
-  transition: background-color 0.56s ease;
-   cursor: pointer;
-}
-
-.boton:hover {
-  background-color: #1D6C83;
-  color: rgb(255, 255, 255);
+  .elipse,
+  .elipse1,
+  .elipse2,
+  .elipse3 {
+    opacity: 0;
+  }
 }
